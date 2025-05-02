@@ -7,8 +7,13 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.google.firebase.messaging.FirebaseMessaging
+import android.view.View
+import android.content.Intent
+import android.net.Uri
+
 
 class MainActivity : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -36,5 +41,12 @@ class MainActivity : AppCompatActivity() {
                 val token = task.result
                 android.util.Log.d("Firebase", "Device Token (fetched manually): $token")
             }
+    }
+    // ЭНЭ ДОТРОО дараах кодыг нэм:
+    fun openWebsite(view: View) {
+        val url = "https://sainaadesu.github.io/PersonalWeb/menu/programm/progamm.html" // өөрийн сайт оруул
+        val intent = Intent(Intent.ACTION_VIEW)
+        intent.data = Uri.parse(url)
+        startActivity(intent)
     }
 }

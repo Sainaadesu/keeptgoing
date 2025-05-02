@@ -8,6 +8,27 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <!-- Энд дарж нэмэх TextView, Button гэх мэт -->
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="543dp"
+        android:onClick="openWebsite"
+        android:text="энэ дээр дар"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="104dp"
+        android:text="Шинэчлэлт гарсан тохиолдолд доорх товчийг дарж татаж авна уу."
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

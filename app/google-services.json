@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "203385109394",
+    "project_id": "keep-going-f1e3b",
+    "storage_bucket": "keep-going-f1e3b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:203385109394:android:1004c2e1353b237c0a9f4b",
+        "android_client_info": {
+          "package_name": "com.example.keepgoingapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfwAZ1IPsy9pG6Rng89NgTySKj4xZC9zs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
